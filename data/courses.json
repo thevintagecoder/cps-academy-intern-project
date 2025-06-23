@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Fundamentals",
+    "description": "This comprehensive course is designed for absolute beginners and covers everything you need to know to build your first websites. Starting with the basics of HTML and CSS, you'll progress to interactive JavaScript programming.",
+    "summary": "The perfect starting point for your web development journey. Learn the essential skills of HTML, CSS, and JavaScript.",
+    "modules": [
+      {
+        "id": 101,
+        "name": "Introduction to HTML & CSS",
+        "details": "Learn the foundational building blocks of the web.",
+        "numberOfClasses": 10,
+        "topicsCovered": "HTML Tags, CSS Selectors, Flexbox, Grid."
+      },
+      {
+        "id": 102,
+        "name": "JavaScript for Beginners",
+        "details": "Dive into the programming language of the web.",
+        "numberOfClasses": 15,
+        "topicsCovered": "Variables, Functions, DOM Manipulation."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Modern React Developer",
+    "description": "Take your frontend skills to the next level with React. This course teaches you how to build fast, scalable, and dynamic web applications with the React library and its ecosystem.",
+    "summary": "Learn to build powerful single-page applications with the most popular JavaScript library in the world.",
+    "modules": [
+      {
+        "id": 201,
+        "name": "Getting Started with React",
+        "details": "An introduction to the most popular frontend library.",
+        "numberOfClasses": 12,
+        "topicsCovered": "Components, JSX, Props, State."
+      },
+      {
+        "id": 202,
+        "name": "Advanced State Management",
+        "details": "Learn how to manage complex application state.",
+        "numberOfClasses": 8,
+        "topicsCovered": "Context API, Redux Toolkit."
+      }
+    ]
+  }
+]
