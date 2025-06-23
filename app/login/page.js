@@ -1,4 +1,5 @@
 // File: app/login/page.js
+// --- CORRECTED VERSION FOR VERCEL DEPLOYMENT ---
 "use client";
 
 import { useState } from 'react';
@@ -56,6 +57,7 @@ export default function LoginPage() {
             </button>
           </div>
         </form>
+        {/* THE FIX IS IN THE LINE BELOW */}
         <p className="text-sm text-center text-gray-600">
           Don't have an account?{' '}
           <Link href="/register" className="font-medium text-indigo-600 hover:text-indigo-500">
