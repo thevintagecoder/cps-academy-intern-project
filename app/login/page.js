@@ -1,5 +1,4 @@
 // File: app/login/page.js
-// --- CORRECTED VERSION FOR VERCEL DEPLOYMENT ---
 "use client";
 
 import { useState } from 'react';
@@ -13,12 +12,11 @@ export default function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real app, you'd validate password here. We just need the email.
     login(email);
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex items-center justify-center min-h-screen">
       <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
         <h1 className="text-2xl font-bold text-center text-gray-900">Login</h1>
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -57,7 +55,6 @@ export default function LoginPage() {
             </button>
           </div>
         </form>
-        {/* THE FIX IS IN THE LINE BELOW */}
         <p className="text-sm text-center text-gray-600">
           Don't have an account?{' '}
           <Link href="/register" className="font-medium text-indigo-600 hover:text-indigo-500">
