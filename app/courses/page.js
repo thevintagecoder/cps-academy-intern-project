@@ -11,7 +11,7 @@ export default function CoursesPage() {
 
   return (
     <div> {/* Removed padding from here, it's in layout.js now */}
-      <h1 className="text-3xl font-bold mb-8 text-gray-900">All Courses</h1>
+      <h1 className="text-3xl font-bold mb-8 text-indigo-600">All Courses</h1>
       
       {/* THIS IS THE RESPONSIVE GRID */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

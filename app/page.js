@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function HomePage() {
   return (
     <div className="text-center">
-      <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900">
+      <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-indigo-600">
         Welcome to <span className="text-indigo-600">CPS Academy</span>
       </h1>
       <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-500">

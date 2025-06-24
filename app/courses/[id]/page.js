@@ -12,7 +12,7 @@ function getCourse(id) {
 }
 
 export default function SingleCoursePage({ params }) {
-  const { user } = useAuth(); // Get the current user from our context!
+  const { user } = useAuth(); // to get the current user from our context
   const course = getCourse(params.id);
 
   if (!course) {
@@ -34,10 +34,10 @@ export default function SingleCoursePage({ params }) {
       <Link href="/courses" className="text-indigo-600 hover:underline mb-6 inline-block">
         ← Back to All Courses
       </Link>
-      <h1 className="text-5xl font-extrabold mb-4 text-gray-800">{course.title}</h1>
-      <p className="prose lg:prose-xl text-lg text-gray-700 mb-8">{course.description}</p>
+      <h1 className="text-5xl font-extrabold mb-4 text-white">{course.title}</h1>
+      <p className="prose lg:prose-xl text-lg text-white mb-8">{course.description}</p>
       
-      <h2 className="text-3xl font-bold mb-6 text-gray-700 border-t pt-6">Course Modules</h2>
+      <h2 className="text-3xl font-bold mb-6 text-white border-t pt-6">Course Modules</h2>
       
       {/* ---- THE CORE LOGIC IS HERE ---- */}
       {canViewModules ? (
