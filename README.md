@@ -4,6 +4,8 @@ This project is a responsive web application built for the CPS Academy Software 
 
 **Live Demo:** [https://cps-academy-intern-project.vercel.app/](https://cps-academy-intern-project.vercel.app/)
 
+**Video Demonstration:** [Watch the 3-minute video overview on Loom]: https://www.loom.com/share/728b36a380144f9e8d88c753fcf18db0?sid=ce890ed3-1f33-4188-b731-64165bac8922
+
 ---
 
 ## Project Overview
